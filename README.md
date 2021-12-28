@@ -28,7 +28,7 @@ we are forced to do GBan for you Never ever abuse this repository
 ## <p align="center">DEPLOY Bear-Userbot</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/polarrbear/Bear-Userbot/tree/Bear-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/polarrbear/Bear-Userbot/deploy/Bear-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
