@@ -1,0 +1,130 @@
+{
+  "name": "Bear-Userbot",
+  "description": "[Bear-Userot] USERBOT UNTUK MEMBANTU AKUN TELEGRAM ANDA.",
+  "logo": "https://telegra.ph/file/157df60d29081985c2a3f.jpg",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/polarrbear/Bear-Userbot",
+  "telegram": "https://t.me/polllarbear",
+  "success_url": "https://t.me/zona_teman",
+  "stack": "container",
+  "env": {
+    "API_KEY": {
+      "description": "Dapatkan Api Key di my.telegram.org.",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Dapatkan Api Hash Di my.telegram.org.",
+      "required": true
+    },
+     "STRING_SESSION": {
+      "description": "Dapatkan String Session di» https://replit.com/@BearUserbot/StringSession#main.py » Lalu pilih T untuk userbot P untuk botmusic.",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Nama App heroku, Nama App yang paling atas di isi (liat paling atas)",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku API KEY lu, ambil di dashboard heroku.",
+      "value": "Check Di Heroku Dashboard Mu",
+      "required": true
+    },
+    "BOTLOG_CHATID": {
+      "description": "Buatlah sebuah grup private/public masukan bot rose lalu ketik /id [awlannya harus -100].",
+      "value": "Isi id grup mu",
+      "required": true
+    },
+    "COUNTRY": {
+      "description": " Isi kota asal lu buat perintah .time and .date commands.",
+      "value": "ID",
+      "required": true
+    },
+    "TZ_NUMBER": {
+      "description": "Change this value in case your country has multiple Time Zones.",
+      "value": "1",
+      "required": false
+    },
+    "PM_AUTO_BAN": {
+      "description": "PM Auto-Ban fitur kalo ada yang nge-PC tar auto bales.",
+      "value": "False",
+      "required": true
+    },
+    "TMP_DOWNLOAD_DIRECTORY": {
+      "description": "Download location for many modules (GDrive, .download etc..)",
+      "value": "./downloads/"
+    },
+    "CLEAN_WELCOME": {
+      "description": "Terserah Mau di true apa false.",
+      "value": "True"
+    },
+    "DEFAULT_BIO": {
+      "description": "Default Bio Lu.",
+      "value": "🐻 I'am Bear-Userbot 🐻",
+      "required": false
+    },
+    "ALIVE_NAME": {
+      "description": "Nama untuk menunjukan pesan .alive",
+      "required": false
+    },
+    "S_PACK_NAME": {
+      "description": "Nama Sticker Pack Mu",
+      "required": false
+    },
+    "G_BAN_LOGGER_GROUP": {
+      "description": "Buatlah Sebuah Grup Private/Public Lalu Masukkan Bot Rose Lalu Ketik /id.",
+      "value": "Isi id grup mu",
+      "required": true
+    },
+    "UB_BLACK_LIST_CHAT": {
+      "description": "Balcklist chat buat gcast atau yang berhubungan dengan bot gk bisa kekirim",
+      "required": false
+    },
+    "WEATHER_DEFCITY": {
+      "description": "Set the default city for the userbot's weather module.",
+      "value": "Pulau Seribu",
+      "required": false
+    },
+    "UPSTREAM_REPO_URL": {
+      "description": " tambahin url repo fork an lu (seterah mau di isi atau gk).",
+      "required": false
+    },
+    "BOT_TOKEN": {
+      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Username of the bot you created with @BotFather",
+      "required": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],"buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }, {
+    "url": "https://github.com/heroku/heroku-buildpack-redis"
+  }, {
+    "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+  }, {
+    "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab"
+  },{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  }, {
+    "url": "https://github.com/amivin/aria2-heroku"
+  }, {
+    "url": "https://github.com/stevo550/buildpack-slug-cleaner"
+  }]
+}
