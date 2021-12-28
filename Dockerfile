@@ -1,7 +1,7 @@
 FROM polarrbear/bear-userbot:buster
 
 # Install repo link
-RUN git clone -b Bear-userbot https://github.com/polarrbear/Bear-userbot /root/userbot
+RUN git clone -b Bear-userbot https://github.com/polarrbear/luffy-Bot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
