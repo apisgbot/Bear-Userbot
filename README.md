@@ -39,6 +39,7 @@ we are forced to do GBan for you Never ever abuse this repository
 
 ## Kredit
   Terimakasih untuk 
+*   [Fariz](https://github.com/fjgaming212) - Flicks-Userbot
 *   [Apis](https://github.com/apisuserbot) - King-Userbot
 *   [Alvin](https://github.com/Zora24/Lord-Userbot) - Lord Userbot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
