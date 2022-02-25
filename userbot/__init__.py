@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "` Telah Aktif`")
+    await bot.send_message(BOTLOG_CHATID, "`🐻bear-userbot🐻 Telah Aktif`")
     return
 
 with bot:
