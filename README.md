@@ -7,12 +7,12 @@
 <p align="center">&nbsp;</p>
 
 ### Repo Bear Userbot
-Repo Yang Dibuat [polar](https://t.me/polllarbear) Dari Berbagai Repo Userbot telegram .
+Repo Yang Dibuat [polar](https://t.me/sesadbear) Dari Berbagai Repo Userbot telegram .
 
 ### Generate String Session
 [![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://replit.com/@BearUserbot/StringSession#main.py)
 
-   <a href="https://t.me/SkyStringBot"><img src="https://img.shields.io/badge/String%20Session%3F-yes-blue?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/PrimeStringbot"><img src="https://img.shields.io/badge/String%20Session%3F-yes-blue?&style=flat-square?&logo=telegram" width=220px></a></p>
 
 ## Disclaimer
          
