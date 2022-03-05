@@ -3,30 +3,30 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.luffy(?: |$)(.*)')
+@register(outgoing=True, pattern='^.dante(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku luffy`")
+    await typew.edit("`Hai Perkenalkan Namaku Dante`")
     sleep(3)
-    await typew.edit("`17 Tahun`")
+    await typew.edit("`16 Tahun`")
     sleep(3)
-    await typew.edit("`Kelas 12`")
+    await typew.edit("`Kelas 11`")
     sleep(1)
-    await typew.edit("`Tinggal Di Bangka belitung, Salam Kenal:)`")
+    await typew.edit("`Tinggal pulo panggang, Salam Kenal:)`")
 
 
-@register(outgoing=True, pattern='^.elsa(?: |$)(.*)')
+@register(outgoing=True, pattern='^.apis(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai perkenalkan namaku elsa`")
+    await typew.edit("`Hai perkenalkan namaku apis`")
     sleep(3)
-    await typew.edit("`17 Tahun`")
+    await typew.edit("`16 Tahun`")
     sleep(3)
-    await typew.edit("`Kelas 12`")
+    await typew.edit("`Kelas 11`")
     sleep(1)
-    await typew.edit("`Asal kota malang, salken yah:)`")
+    await typew.edit("`Asal pulau seribu, salken yah:)`")
 
 
 @register(outgoing=True, pattern='^ilyu(?: |$)(.*)')
