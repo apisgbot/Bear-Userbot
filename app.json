@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sesadbear/Bear-Userbot",
-  "telegram": "https://t.me/polllarbear",
-  "success_url": "https://t.me/zona_teman",
+  "repository": "https://github.com/polarrbear/Bear-Userbot",
+  "telegram": "https://t.me/dxDante",
+  "success_url": "https://t.me/tranlation18",
   "stack": "container",
   "env": {
     "API_KEY": {
