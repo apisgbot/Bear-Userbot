@@ -7,7 +7,7 @@
 <p align="center">&nbsp;</p>
 
 ### Repo Bear Userbot
-Repo Yang Dibuat [polar](https://t.me/dxDante) Dari Berbagai Repo Userbot telegram .
+Repo Yang Dibuat [Dante](https://t.me/dxDante) Dari Berbagai Repo Userbot telegram .
 
 ### Generate String Session
 [![Run repl.it](https://img.shields.io/badge/run-string__session.py-blue?style=for-the-badge&logo=repl.it)](https://replit.com/@BearUserbot/StringSession#main.py)
