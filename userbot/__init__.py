@@ -427,7 +427,7 @@ with bot:
                                 "https://github.com/polarrbear/Bear-Userbot"),
                             custom.Button.url(
                                 "Pemilik",
-                                "t.me/polllarbear")],
+                                "t.me/dxDante")],
                     ],
                     link_preview=False,
                 )
