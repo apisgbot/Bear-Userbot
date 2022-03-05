@@ -424,7 +424,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "Repositories",
-                                "https://github.com/polarrbear/Bear-Userbot"),
+                                "https://github.com/apisgbot/Bear-Userbot"),
                             custom.Button.url(
                                 "Pemilik",
                                 "t.me/dxDante")],
